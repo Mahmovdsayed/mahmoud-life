@@ -18,6 +18,8 @@ const ButtonUi = ({ startContent, radius = "full", title = "Button", href = "/" 
             href={href}
             target="_blank"
             rel="noreferrer"
+            aria-label={title}
+
         >{startContent}</Button>
     </>;
 };

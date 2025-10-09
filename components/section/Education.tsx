@@ -18,7 +18,7 @@ const Education = () => {
                         />
                     </div>
                     <div>
-                        <h4 className="text-base font-semibold text-start mb-1">Sadat Academy for Management Sciences</h4>
+                        <h3 className="text-base font-semibold text-start mb-1">Sadat Academy for Management Sciences</h3>
                         <h5 className="text-sm font-medium text-default-700 text-start mb-2">Business Information systems and Management Science</h5>
                     </div>
                 </div>

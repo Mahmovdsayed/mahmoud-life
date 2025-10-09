@@ -52,30 +52,37 @@ const Header = () => {
                     <ButtonUi
                         startContent={<FacebookIcon />}
                         href={"https://www.facebook.com/mahmovdsayedd"}
+                        title="Facebook"
                     />
                     <ButtonUi
                         startContent={<InstagramIcon />}
                         href={"https://www.instagram.com/mahmoodsayed_"}
+                        title="Instagram"
                     />
                     <ButtonUi
                         startContent={<LinkedInIcon />}
                         href={"https://www.linkedin.com/in/mahmoud-sayed-a51634226/"}
+                        title="LinkedIn"
                     />
                     <ButtonUi
                         startContent={<GithubIcon />}
                         href={"https://github.com/Mahmovdsayed"}
+                        title="Github"
                     />
                     <ButtonUi
                         startContent={<TwitterIcon />}
                         href={"https://x.com/mahmoodsayed_"}
+                        title="Twitter"
                     />
                     <ButtonUi
                         startContent={<TikTokIcon />}
                         href={"https://www.tiktok.com/@mahmovdsayed"}
+                        title="TikTok"
                     />
                     <ButtonUi
                         startContent={<SnapChatIcon />}
                         href={"https://snapchat.com/t/5hYcKVtF"}
+                        title="SnapChat"
                     />
 
                 </div>
