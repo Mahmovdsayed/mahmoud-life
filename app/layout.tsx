@@ -5,6 +5,7 @@ import Providers from "@/provider/Providers";
 import Footer from "@/components/section/Footer";
 import Theme from "@/components/ui/Theme";
 import CardMotion from "@/components/motion/CardMotion";
+import { Analytics } from "@vercel/analytics/next"
 
 
 const inter = Inter({
@@ -91,6 +92,7 @@ export default function RootLayout({
           <CardMotion delay={0.8}>
             <Footer />
           </CardMotion>
+          <Analytics />
         </Providers>
       </body>
     </html>
