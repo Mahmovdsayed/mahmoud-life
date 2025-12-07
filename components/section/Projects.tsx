@@ -59,7 +59,8 @@ const Projects = () => {
             projectLinks: {
                 projectURL: "https://moviescafe.vercel.app",
                 githubURL: "https://github.com/Mahmovdsayed/movies-cafe"
-            }
+            },
+
         },
         {
             name: 'E-Commerce Backend with AI',
@@ -94,6 +95,62 @@ const Projects = () => {
             projectLinks: {
                 projectURL: "https://www.linkedin.com/posts/mahmoud-sayed-a51634226_github-mahmovdsayede-commerce-backend-activity-7380399739621699586-dLNr",
                 githubURL: "https://github.com/Mahmovdsayed/e-commerce-backend"
+            }
+        },
+        {
+            name: "Lexel — Create AI-Powered Blogs in Minutes",
+            description: 'Generate, optimize, and publish blog posts effortlessly with Lexel — the next-gen AI blogging platform built for creators who value simplicity and speed.',
+            image: "https://res.cloudinary.com/dtpsyi5am/image/upload/v1761445476/lexel-header_zsz6tb.png",
+            client: {
+                name: "NEST",
+                logo: "https://res.cloudinary.com/dtpsyi5am/image/upload/v1751492792/portfolio/userImages/mahmoudsayed/Project/Client/a3rs4mom9qgyedgz6s84.webp"
+            },
+            stack: [
+                "Next.js",
+                "TailwindCSS",
+                "TypeScript",
+                "React-Query",
+                "Redux-Toolkit",
+                "Framer Motion",
+                "MongoDB",
+                "Node.js",
+            ],
+            projectCategory: {
+                from: "2025-10-26",
+                to: "2025-11-6",
+                projectType: "Tech",
+                status: "Completed"
+            },
+            projectLinks: {
+                projectURL: "https://lexel-ai.vercel.app/",
+                githubURL: "#"
+            }
+        },
+        {
+            name: "World Art Forum For Development Foundation",
+            description: 'The World Art Forum for Development Foundation is a non-profit organization that aims to promote the development of art and culture in the world. The organization is committed to supporting artists, cultural institutions, and communities around the world. It provides grants, scholarships, and other resources to help artists and cultural institutions develop their work and reach new audiences.',
+            image: "https://res.cloudinary.com/dxvpvtcbg/image/upload/v1762885189/banner_ybktpc.png",
+            client: {
+                name: "WAFDF",
+                logo: "	https://wafdf.org/_next/image?url=%2Fimg%2Fwafdf.png&w=384&q=75"
+            },
+            stack: [
+                "Next.js",
+                "TailwindCSS",
+                "TypeScript",
+                "React-Query",
+                "Redux-Toolkit",
+                "Framer Motion",
+            ],
+            projectCategory: {
+                from: "2025-12-1",
+                to: "2025-12-7",
+                projectType: "Tech",
+                status: "Completed"
+            },
+            projectLinks: {
+                projectURL: "https://wafdf.org/",
+                githubURL: "#"
             }
         }
     ]
