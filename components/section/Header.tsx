@@ -56,7 +56,7 @@ const Header = () => {
                     />
                     <ButtonUi
                         startContent={<InstagramIcon />}
-                        href={"https://www.instagram.com/mahmoodsayed_"}
+                        href={"https://www.instagram.com/mahmovdsayed"}
                         title="Instagram"
                     />
                     <ButtonUi
