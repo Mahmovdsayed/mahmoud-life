@@ -4,7 +4,12 @@ import { Card, CardBody, CardFooter, CardHeader, Image } from "@heroui/react"
 
 const Education = () => {
     return <>
-        <Card shadow="none" className="w-full rounded-2xl mt-4">
+        <Card shadow="none" className="
+    relative isolate w-full mt-4 rounded-2xl overflow-hidden
+    bg-white/70 dark:bg-gray-900/60
+    backdrop-blur-xl
+    ring-1 ring-black/5 dark:ring-white/10
+  ">
             <CardHeader className="text-2xl font-bold text-start">Education</CardHeader>
             <CardBody>
                 <div className="flex items-center w-full gap-4 mb-4">

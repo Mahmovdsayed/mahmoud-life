@@ -10,6 +10,7 @@ import Projects from "@/components/section/Projects";
 import Stack from "@/components/section/Stack";
 import Snowfall from "react-snowfall";
 import { useTheme } from "next-themes";
+import Navbar from "@/components/layout/Navbar";
 
 
 const Page = () => {
@@ -22,10 +23,12 @@ const Page = () => {
         height: '100vh',
         zIndex: 999,
       }}
-      snowflakeCount={300}
-      color={theme.theme === 'dark' ? '#fff' : '#000000'}
+      snowflakeCount={200}
+      color={theme.theme === 'dark' ? '#79b9eeff' : '#79b9eeff'}
     />
-    <div className="w-full h-full bg-[#f9f9f9] dark:bg-black"></div>
+      <CardMotion delay={0.1}>
+        <Navbar />
+      </CardMotion>
     <ContainerLayout>
       <CardMotion delay={0.2}>
         <Header />
