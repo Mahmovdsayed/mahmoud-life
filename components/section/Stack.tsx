@@ -33,16 +33,11 @@ const Stack = () => {
         "Accessibility",
         "Web Security",
         "Shadcn/ui",
-        "NextUI",
-        "Material UI",
-        "Webpack",
         "VS Code",
         "Postman",
         "MongoDB Compass",
-        "Jest",
         "Turborepo",
         "Docker",
-        "Azure",
         "Vercel",
         "Netlify",
         "React Native",
@@ -52,11 +47,10 @@ const Stack = () => {
         "Express.js",
         "MongoDB",
         "Multer",
-        "GraphQL",
-        "SQL",
-        "Socket.io",
         "C++",
-        "PYTHON"
+        "python",
+        "Bun",
+        "Hono"
     ]
     return <>
         <Card shadow="none" className="w-full rounded-2xl mt-4">

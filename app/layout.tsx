@@ -80,6 +80,7 @@ export default function RootLayout({
         className={`${inter.variable} antialiased overflow-x-hidden bg-[#f9f9f9] dark:bg-black`}
       >
         <Providers>
+          
           {children}
           <Theme />
           <CardMotion delay={0.8}>
