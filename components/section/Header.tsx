@@ -1,6 +1,6 @@
 'use client'
 
-import { Card, CardBody, CardFooter, CardHeader, Image } from "@heroui/react";
+import { Button, Card, CardBody, CardFooter, CardHeader, Image, Link } from "@heroui/react";
 import CheckIcon from "@/icons/CheckIcon";
 import ButtonUi from "../ui/ButtonUi";
 import FacebookIcon from "@/icons/FacebookIcon";
@@ -10,6 +10,7 @@ import TwitterIcon from "@/icons/TwitterIcon";
 import GithubIcon from "@/icons/GithubIcon";
 import TikTokIcon from "@/icons/TikTokIcon";
 import SnapChatIcon from "@/icons/SnapChatIcon";
+import PlusIcon from "@/icons/PlusIcon";
 
 const Header = () => {
     return (
@@ -41,10 +42,27 @@ const Header = () => {
             <CardBody className="pt-14">
                 <div className="flex items-center justify-between">
                     <div className="flex flex-col gap-1">
-                        <div className="flex items-center gap-2">
-                            <h1 className="text-2xl font-semibold">Mahmoud Sayed</h1>
-                            <CheckIcon />
+                        <div className="flex items-center justify-between">
+                            <div className="flex items-center gap-2">
+                                <h1 className="text-2xl font-semibold">Mahmoud Sayed</h1>
+                                <CheckIcon />
+                            </div>
+                            <div>
+                              <Button 
+                              size="sm"
+                              radius="full"
+                              variant="flat"
+                              className="bg-black text-white font-medium dark:bg-white dark:text-black"
+                              as={Link}
+                              href="https://www.instagram.com/mahmovdsayed"
+                              target="_blank"
+                              startContent={<PlusIcon />}
+                              >
+                                Follow
+                              </Button>
+                            </div>
                         </div>
+
                         <p className="text-default-500">@mahmoudsayed</p>
                         <p className="text-default-700 lg:w-3/4 mt-2">
                             Full-Stack Developer | React.js, Next.js, Node.js & React Native (Expo) | Web & Mobile Apps with Scalable Backends and Smooth UX                        </p>
