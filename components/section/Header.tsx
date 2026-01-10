@@ -15,9 +15,7 @@ const Header = () => {
     return (
         <Card shadow="none" className="
     relative isolate w-full mt-4 rounded-2xl overflow-hidden
-    bg-white/70 dark:bg-gray-900/60
-    backdrop-blur-xl
-    ring-1 ring-black/5 dark:ring-white/10
+   
   "
         >
             <CardHeader className="p-0 relative">
