@@ -10,7 +10,7 @@ const Education = () => {
     backdrop-blur-xl
     ring-1 ring-black/5 dark:ring-white/10
   ">
-            <CardHeader className="text-2xl font-bold text-start">Education</CardHeader>
+            <CardHeader className="text-2xl font-semibold text-start">Education</CardHeader>
             <CardBody>
                 <div className="flex items-center w-full gap-4 mb-4">
                     <div>

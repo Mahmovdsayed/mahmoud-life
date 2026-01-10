@@ -26,7 +26,7 @@ const Certifications = () => {
     ring-1 ring-black/5 dark:ring-white/10
   ">
             <CardHeader className="flex-col items-start">
-                <h5 className="text-2xl font-bold text-start">Certifications</h5>
+                <h5 className="text-2xl font-semibold text-start">Certifications</h5>
                 <p className="text-start font-medium text-default-600 text-xs md:text-sm leading-relaxed"
                 >I believe in continuous learning and professional development. Here are some of the certifications I've earned to expand my knowledge and skills in various areas of technology and development.</p>
             </CardHeader>

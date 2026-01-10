@@ -2,7 +2,7 @@
 @config "../tailwind.config.ts";
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: var(--font-montserrat);
 }
 
 * {

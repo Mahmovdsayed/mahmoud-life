@@ -44,7 +44,7 @@ const Header = () => {
                 <div className="flex items-center justify-between">
                     <div className="flex flex-col gap-1">
                         <div className="flex items-center gap-2">
-                            <h1 className="text-2xl font-bold">Mahmoud Sayed</h1>
+                            <h1 className="text-2xl font-semibold">Mahmoud Sayed</h1>
                             <CheckIcon />
                         </div>
                         <p className="text-default-500">@mahmoudsayed</p>
@@ -67,7 +67,7 @@ const Header = () => {
                     />
                     <ButtonUi
                         startContent={<LinkedInIcon />}
-                        href={"https://www.linkedin.com/in/mahmoud-sayed-a51634226/"}
+                        href={"https://www.linkedin.com/in/mahmoud-s-a51634226/"}
                         title="LinkedIn"
                     />
                     <ButtonUi
@@ -87,7 +87,7 @@ const Header = () => {
                     />
                     <ButtonUi
                         startContent={<SnapChatIcon />}
-                        href={"https://snapchat.com/t/5hYcKVtF"}
+                        href={"https://snapchat.com/t/V5ULCwtT"}
                         title="SnapChat"
                     />
 

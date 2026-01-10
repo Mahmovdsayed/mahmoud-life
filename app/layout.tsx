@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Providers from "@/provider/Providers";
 import Footer from "@/components/section/Footer";
@@ -8,9 +8,10 @@ import CardMotion from "@/components/motion/CardMotion";
 import { Analytics } from "@vercel/analytics/next"
 
 
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
+const montserrat = Montserrat({
+    subsets: ['latin'],
+    weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+    variable: '--font-montserrat',
 });
 
 const metadataBase = new URL('https://mahmoud.life');
@@ -77,7 +78,7 @@ export default function RootLayout({
   return (
     <html lang="en" dir="ltr" suppressHydrationWarning className="light scrollbar-thin scrollbar-light dark:scrollbar-dark">
       <body
-        className={`${inter.variable} antialiased overflow-x-hidden bg-[#f9f9f9] dark:bg-black`}
+        className={`${montserrat.variable} antialiased overflow-x-hidden bg-[#f9f9f9] dark:bg-black`}
       >
         <Providers>
           

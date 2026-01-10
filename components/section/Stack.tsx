@@ -59,7 +59,7 @@ const Stack = () => {
     backdrop-blur-xl
     ring-1 ring-black/5 dark:ring-white/10
   ">
-            <CardHeader className="text-2xl font-bold text-start">Stack</CardHeader>
+            <CardHeader className="text-2xl font-semibold text-start">Stack</CardHeader>
             <CardBody>
                 <div className="flex flex-wrap gap-2">
                     {skills.map((skill, index) =>

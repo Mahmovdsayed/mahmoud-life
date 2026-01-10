@@ -161,7 +161,7 @@ const Projects = () => {
     backdrop-blur-xl
     ring-1 ring-black/5 dark:ring-white/10
   ">
-            <CardHeader className="text-2xl font-bold text-start">Projects</CardHeader>
+            <CardHeader className="text-2xl font-semibold text-start">Projects</CardHeader>
 
             <CardBody className="flex flex-col ">
                 {projects.map((project, index) => (
