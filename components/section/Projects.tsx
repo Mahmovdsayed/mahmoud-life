@@ -152,6 +152,37 @@ const Projects = () => {
                 projectURL: "https://wafdf.org/",
                 githubURL: "#"
             }
+        },
+         {
+            name: "Teleb Furniture",
+            description: 'Teleb Furniture is a furniture e-commerce platform built with Next.js, TypeScript, and TailwindCSS. It provides a user-friendly interface for customers to browse and purchase furniture products. The platform includes features such as product search, filtering, and sorting, as well as a shopping cart and checkout process. It also features a responsive design that works on both desktop and mobile devices.',
+            image: "https://www.teleb-furniture.com/icon-512x512.png",
+            client: {
+                name: "Teleb Furniture",
+                logo: "	https://www.teleb-furniture.com/icon-512x512.png"
+            },
+            stack: [
+                "Next.js",
+                "TailwindCSS",
+                "TypeScript",
+                "React-Query",
+                "GSAP",
+                "Framer Motion",
+                "Shadcn UI",
+                "Bun",
+                "Hono",
+                "MongoDB"
+            ],
+            projectCategory: {
+                from: "2025-12-22",
+                to: "2025-12-29",
+                projectType: "Tech",
+                status: "Completed"
+            },
+            projectLinks: {
+                projectURL: "https://www.teleb-furniture.com",
+                githubURL: "#"
+            }
         }
     ]
     return (
